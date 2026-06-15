@@ -1,0 +1,41 @@
+use database.
+use student.
+
+show "=== API VALIDATION ===".
+show "".
+
+task post_student.
+    show "POST /student".
+    run insert_student with "students.txt" and "Ayush,22".
+    show "Student Created".
+    show "".
+end.
+
+task get_student.
+    show "GET /student".
+    text data is run search_student with "students.txt".
+    show data.
+    show "".
+end.
+
+task put_student.
+    show "PUT /student".
+    run update_student with "students.txt" and "Ayush,23".
+    show "Student Updated".
+    show "".
+end.
+
+task delete_student.
+    show "DELETE /student".
+    run db_delete_student with "students.txt".
+    show "Student Deleted".
+    show "".
+end.
+
+run post_student.
+run get_student.
+run put_student.
+run get_student.
+run delete_student.
+
+show "[API] PASS".

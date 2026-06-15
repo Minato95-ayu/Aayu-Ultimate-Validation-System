@@ -1,0 +1,4 @@
+record User.
+    username
+    password
+end.

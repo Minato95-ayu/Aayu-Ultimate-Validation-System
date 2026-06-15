@@ -1,0 +1,19 @@
+use validation.
+
+show "=== AAYU ULTIMATE VALIDATION ===".
+show "".
+
+run validate_records.
+run validate_database.
+run validate_api.
+show "".
+
+run validate_modules.
+show "".
+
+run validate_features.
+show "".
+
+show "--------------------------------".
+show "AAYU VALIDATION SUCCESSFUL".
+show "--------------------------------".

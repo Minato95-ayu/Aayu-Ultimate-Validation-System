@@ -1,0 +1,4 @@
+record Book.
+    title
+    author
+end.

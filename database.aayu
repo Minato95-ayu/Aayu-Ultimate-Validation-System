@@ -1,0 +1,18 @@
+use student.
+
+task insert_student with db_file and data.
+    write data to db_file.
+end.
+
+task search_student with db_file.
+    text data is read db_file.
+    result is data.
+end.
+
+task update_student with db_file and new_data.
+    write new_data to db_file.
+end.
+
+task db_delete_student with db_file.
+    write "" to db_file.
+end.

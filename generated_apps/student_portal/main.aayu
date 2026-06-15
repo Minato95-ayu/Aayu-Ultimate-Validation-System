@@ -1,0 +1,7 @@
+use student.
+use course.
+use grade.
+use enroll.
+use assign_grade.
+
+show "Student Portal Generated".

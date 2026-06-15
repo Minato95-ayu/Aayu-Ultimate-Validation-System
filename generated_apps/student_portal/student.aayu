@@ -1,0 +1,4 @@
+record Student.
+    name
+    roll_number
+end.

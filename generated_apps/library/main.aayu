@@ -1,0 +1,7 @@
+use student.
+use book.
+use library.
+use borrow_book.
+use return_book.
+
+show "Library Generated".

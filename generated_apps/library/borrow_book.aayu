@@ -1,0 +1,3 @@
+task borrow_book.
+    show "Executing borrow_book...".
+end.

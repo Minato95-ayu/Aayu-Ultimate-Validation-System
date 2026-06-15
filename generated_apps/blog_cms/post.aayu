@@ -1,0 +1,4 @@
+record Post.
+    title
+    content
+end.

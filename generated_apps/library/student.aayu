@@ -1,0 +1,4 @@
+record Student.
+    name
+    age
+end.

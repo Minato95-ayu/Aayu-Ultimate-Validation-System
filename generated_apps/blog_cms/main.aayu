@@ -1,0 +1,7 @@
+use user.
+use post.
+use comment.
+use publish.
+use moderate.
+
+show "Blog Cms Generated".

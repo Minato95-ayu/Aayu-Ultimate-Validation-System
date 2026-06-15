@@ -1,0 +1,4 @@
+record Grade.
+    score
+    grade_letter
+end.

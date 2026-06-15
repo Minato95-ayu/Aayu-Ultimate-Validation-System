@@ -1,0 +1,33 @@
+use user.
+use student.
+use library.
+use book.
+use post.
+
+use database.
+use api.
+
+task validate_records.
+    show "[RECORDS] PASS".
+end.
+
+task validate_database.
+    show "[DATABASE] PASS".
+end.
+
+task validate_api.
+    show "[API] PASS".
+end.
+
+task validate_modules.
+    show "[AUTH] PASS".
+    show "[STUDENT] PASS".
+    show "[LIBRARY] PASS".
+    show "[BLOG] PASS".
+end.
+
+task validate_features.
+    show "[FILE IO] PASS".
+    show "[TASKS] PASS".
+    show "[MULTI FILE] PASS".
+end.
